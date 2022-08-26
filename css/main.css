@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  transition: 6.9s;
+}
+
+img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  background-color: rgba(255, 255, 255, 0.79);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  padding: 30px 0 10px 0;
+}
+
+.site-header .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header .header a {
+  color: #2C2830;
+}
+
+.site-header .header__logo {
+  display: inline-block;
+}
+
+.site-header .header .button {
+  display: none;
+  background-color: transparent;
+  border: none;
+}
+
+.site-header .header__item {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.site-header .header__item-list-contact {
+  display: inline-block;
+  padding: 13px 29px;
+  border: 1.5px solid #2C2830;
+  background: #FFFFFF;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  color: #2C2830;
+}
+
+.site-header .header__item-list-contact:active {
+  color: #fff;
+  background-color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .site-header .header .button {
+    display: block;
+  }
+  .site-header .header__item {
+    display: none;
+  }
+}
+.hero-section {
+  background-color: #2D2641;
+  padding-top: 150px;
+  margin-bottom: 250px;
+  margin-top: 100px;
+  padding-bottom: 130px;
+}
+
+.hero-section .hero {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+}
+
+.hero-section .hero__card {
+  width: 40%;
+}
+
+.hero-section .hero__card__span {
+  display: block;
+  width: 100px;
+  padding: 1px 0;
+  background-color: #FFFFFF;
+}
+
+.hero-section .hero__card__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 64px;
+  font-family: "DM Serif Display";
+  margin-top: 40px;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+}
+
+.hero-section .hero__card__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 40px;
+  line-height: 26px;
+  color: #FFFFFF;
+  font-family: "Karla";
+}
+
+.hero-section .hero__card__btn {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  background-color: #2D2641;
+  padding: 10px;
+  border: 2px solid white;
+  margin-top: 40px;
+}
+
+.hero-section .hero__img {
+  width: 40%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-section .hero__img__image {
+  width: 80%;
+}
+
+.one-section {
+  padding: 120px 0 20px 0;
+  background-color: #fff;
+}
+
+.one-section__title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  margin-top: 100px;
+  line-height: 64px;
+  /* identical to box height, or 89% */
+  letter-spacing: -1px;
+  color: #2C2830;
+}
+
+.one-section__spa {
+  width: 300px;
+  margin-top: -100px;
+  height: 3px;
+}
+
+.one-section__spa__tt {
+  background-color: #8e0000;
+  width: 300px;
+  margin-top: -100px;
+  padding: 0.2px;
+}
+
+.one-section .box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.one-section .box__car {
+  padding: 2px;
+  padding: 200px 0;
+}
+
+.one-section .box__car__title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 38px;
+  padding: 30px 0;
+  letter-spacing: -0.388889px;
+  color: #2C2830;
+}
+
+.one-section .box__car__text {
+  padding: 10px 31px;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  width: 290px;
+  padding: 30px 0;
+  /* or 162% */
+  color: #837D88;
+}
+
+.two-section {
+  background-color: #2D2641;
+  width: 1200px;
+  padding: 120px 0;
+  margin: 0 auto;
+}
+
+.two-section .two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 90px 0 70px;
+}
+
+.two-section .two__title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 66px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  color: #FFFFFF;
+}
+
+.two-section .two__btn {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #FFFFFF;
+  padding: 20px;
+  background-color: #2D2641;
+  border: 2px solid white;
+}
+
+.two-section .two__btn:active {
+  background-color: black;
+  color: #f2f;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 30px 0;
+  margin-top: 180px;
+}
+
+.footer .baxa1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer .baxa2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer .baxa2__uli__title {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  color: #837D88;
+  padding: 40px 0;
+}
+
+.footer .baxa2__uli__list {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+  padding: 10px 0;
+  color: #2D2641;
+}
+
+.footer a {
+  color: #2D2641;
+  padding: 10px 0;
+} /*# sourceMappingURL=main.css.map */
+
+/*# sourceMappingURL=main.css.map */

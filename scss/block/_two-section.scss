@@ -1,0 +1,44 @@
+.two-section{
+    background-color:
+    #2D2641 ;
+        width: 1200px;
+    padding: 120px 0;
+    margin: 0 auto;
+
+
+    .two{
+        display: flex;
+        align-items: center;
+        justify-content:space-between ;
+        padding: 0 90px 0 70px;
+
+        &__title{
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 66px;
+            line-height: 56px;
+            letter-spacing: -0.777778px;
+            color: #FFFFFF;
+            }
+
+            &__btn{
+                font-family: 'Karla';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 15px;
+                text-align: center;
+                letter-spacing: 1.5px;
+                color: #FFFFFF;
+                padding: 20px;
+                background-color: #2D2641;
+                border: 2px solid white;
+
+                &:active{
+                    background-color: black;
+                    color:#f2f;
+                }
+                }
+    }
+}
